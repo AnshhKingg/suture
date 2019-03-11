@@ -1,0 +1,31 @@
+{
+  "name": "Suture",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "react": "16.5.0",
+    "react-native": "0.57.1",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^2.18.3",
+    "react-router": "^4.3.1",
+    "react-router-native": "^4.3.0",
+    "react-router-navigation": "^2.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.47.0",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
